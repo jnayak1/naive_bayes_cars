@@ -20,21 +20,20 @@ Using Naive Bayes and SGD ML algorithms to predict if a new car for sale will de
 | # no price change| 7244 cars |
 
 ## Procedures
-### Training Corpus 
+### Corpus 
 The data set was split into a traning set and test set. For each row in the database, each column was concatenated to form a list of strings.
 
-["volkswagen jetta se red brady vw of boston", 
+Training corpus: ["volkswagen jetta se red brady vw of boston", 
 "bmw x5 xt green elway bmw of denver"]
 
-### Test Corpus
-["volvo s60 sv-600 blue rogers volvo of gb"]
+Test corpus: ["volvo s60 sv-600 blue rogers volvo of gb"]
 
-### Training Target
+### Targets
 The target vector indicates which class each training example is in. 0 represents no change in price while a 1 represents a change in price.
-[1,0]
 
-### Test Target
-[0]
+Training Target: [1,0]
+
+Test Target: [0]
 
 ## Results
 |           |  precision   |  recall  | f1-score | support |
