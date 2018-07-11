@@ -2,6 +2,7 @@
 Using Naive Bayes and SGD ML algorithms to predict if a new car for sale will decrease in price.
 
 ## The Data Set
+Example:
 
 | Vin           | Make          | Model     | Trim      | Color    | Dealership   | Location      | Price Change* |
 |---------------|---------------| ----------|-----------|----------|--------------|---------------|---------------|
@@ -23,6 +24,8 @@ Using Naive Bayes and SGD ML algorithms to predict if a new car for sale will de
 ### Corpus 
 The data set was split into a traning set and test set. For each row in the database, each column was concatenated to form a list of strings.
 
+Example:
+
 Training corpus: ["volkswagen jetta se red brady vw of boston", 
 "bmw x5 xt green elway bmw of denver"]
 
@@ -30,6 +33,8 @@ Test corpus: ["volvo s60 sv-600 blue rogers volvo of gb"]
 
 ### Targets
 The target vector indicates which class each training example is in. 0 represents no change in price while a 1 represents a change in price.
+
+Example:
 
 Training Target: [1,0]
 
