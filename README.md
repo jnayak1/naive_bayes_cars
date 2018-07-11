@@ -32,3 +32,12 @@ Using Naive Bayes and SGD ML algorithms to predict if a new car for sale will de
 
 ## Test Target
 [0]
+
+## Results
+|           |  precision   |  recall  | f1-score | support |
+|-----------|--------------|----------|----------|---------|
+|  no_change|       0.88   |   0.80   |   0.84   |   2197  |
+|     change|       0.79   |   0.87   |   0.83   |   1866  |
+|avg / total|       0.84   |   0.83   |   0.83   |   4063  |
+
+Overall acurracy on test set: 83.2%
