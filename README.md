@@ -8,29 +8,32 @@ Using Naive Bayes and SGD ML algorithms to predict if a new car for sale will de
 | 1X234...      | Volkswagen    | Jetta     | SE        | Red      | Brady        | VW of Boston  | 1000          |
 | 4C353...      | BMW           | x5        | XT        | Green    | Elway        | BMW of Denver | 0             |
 | 9E434...      | Volvo         | s60       | SV-600    | Blue     | Rodgers      | Volvo of GB   | 52            |
+| ...           | ...           | ...       | ...       | ...      | ...          | ...           | ...           |
 
 *price change must be > $100 to be considered to have changed
 
-## Data Set Size
+### Data Set Size
 |                  |           |
 |------------------|----------:|
 | Total            | 13311 cars|
 | # price change   | 6067 cars |
 | # no price change| 7244 cars |
 
-
-## Training Corpus 
+## Procedures
+### Training Corpus 
+The data set was split into a traning set and test set. For each row in the database, each column was concatenated to form a list of strings.
 
 ["volkswagen jetta se red brady vw of boston", 
 "bmw x5 xt green elway bmw of denver"]
 
-## Test Corpus
+### Test Corpus
 ["volvo s60 sv-600 blue rogers volvo of gb"]
 
-## Training Target
+### Training Target
+The target vector indicates which class each training example is in. 0 represents no change in price while a 1 represents a change in price.
 [1,0]
 
-## Test Target
+### Test Target
 [0]
 
 ## Results
