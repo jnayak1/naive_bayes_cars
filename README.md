@@ -22,7 +22,7 @@ Example:
 
 ## Procedures
 ### Corpus 
-The data set was split into a traning set and test set. For each row in the database, each column was concatenated to form a list of strings.
+The data set was split into a traning set and test set. For each row in the database, each column was concatenated to form a list of strings called the corpus.
 
 Example:
 
